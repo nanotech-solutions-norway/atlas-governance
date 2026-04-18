@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "rules": [
+    {
+      "if": {"offerId": "internal_knowledge_assistant", "sourceBoundary": "managed_secure_sources"},
+      "then": {"forceDeploymentMode": "managed_secure", "reason": "protected source boundary requires secure runtime"}
+    },
+    {
+      "if": {"prohibitedDataClass": "special_category_personal_data"},
+      "then": {"disallow": true, "reason": "special category personal data is not allowed in launch packages"}
+    },
+    {
+      "if": {"prohibitedDataClass": "health_legal_financial_high_risk"},
+      "then": {"disallow": true, "reason": "high-risk decision domains are excluded from launch"}
+    }
+  ]
+}

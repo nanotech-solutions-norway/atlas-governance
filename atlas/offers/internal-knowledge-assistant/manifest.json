@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "offerId": "internal_knowledge_assistant",
+  "publicName": "Atlas Knowledge",
+  "category": "knowledge_work",
+  "summary": "Internal knowledge and research assistant for approved sources.",
+  "intendedJobs": [
+    "policy and routine lookup",
+    "approved document Q&A",
+    "research synthesis within approved sources"
+  ],
+  "allowedDeploymentModes": ["self_serve", "assisted_setup", "managed_secure"],
+  "allowedSourceBoundaries": ["website_only", "approved_docs_only", "website_and_docs", "managed_secure_sources"],
+  "requiresReviewGuard": true,
+  "publicStatus": "launch_candidate"
+}

@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "roles": [
+    {"id": "consultant", "label": "Consultant"},
+    {"id": "owner_operator", "label": "Owner / Operator"},
+    {"id": "sales_admin", "label": "Sales / Admin"},
+    {"id": "hr_people_ops", "label": "HR / People Ops"},
+    {"id": "operations_support", "label": "Operations / Support"}
+  ]
+}

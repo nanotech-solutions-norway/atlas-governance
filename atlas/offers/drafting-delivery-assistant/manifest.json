@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "offerId": "drafting_delivery_assistant",
+  "publicName": "Atlas Drafting",
+  "category": "drafting_work",
+  "summary": "Structured drafting assistant for proposals, emails, reports, and operational documents.",
+  "intendedJobs": [
+    "proposal drafting",
+    "report drafting",
+    "email and communication drafting"
+  ],
+  "allowedDeploymentModes": ["self_serve", "assisted_setup"],
+  "allowedSourceBoundaries": ["website_only", "approved_docs_only", "website_and_docs"],
+  "requiresReviewGuard": true,
+  "publicStatus": "launch_candidate"
+}

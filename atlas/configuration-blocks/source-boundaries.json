@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "sourceBoundaries": [
+    {"id": "website_only", "label": "Website only"},
+    {"id": "approved_docs_only", "label": "Approved documents only"},
+    {"id": "website_and_docs", "label": "Website and approved documents"},
+    {"id": "managed_secure_sources", "label": "Managed secure sources only"}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "prohibitedDataCategories": [
+    {"id": "special_category_personal_data", "label": "Special category personal data"},
+    {"id": "health_legal_financial_high_risk", "label": "High-risk health, legal, or financial decision content"},
+    {"id": "secret_credentials", "label": "Secrets and credentials"},
+    {"id": "confidential_unapproved_internal_data", "label": "Confidential unapproved internal data"}
+  ]
+}

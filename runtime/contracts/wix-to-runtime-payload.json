@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "event": "atlas.intake.submitted",
+  "required": [
+    "offerId",
+    "roleId",
+    "workflowId",
+    "deploymentMode",
+    "languageMode"
+  ],
+  "properties": {
+    "offerId": {"type": "string"},
+    "roleId": {"type": "string"},
+    "workflowId": {"type": "string"},
+    "deploymentMode": {"type": "string"},
+    "languageMode": {"type": "string"},
+    "sourceBoundary": {"type": "string"},
+    "prohibitedDataClass": {"type": "string"},
+    "customerEmail": {"type": "string"},
+    "companyName": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

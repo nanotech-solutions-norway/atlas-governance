@@ -1,0 +1,23 @@
+{
+  "version": "0.1.0",
+  "packages": [
+    {
+      "offerId": "internal_knowledge_assistant",
+      "defaultDeployment": "assisted_setup",
+      "supportsManagedSecure": true,
+      "primaryValue": "approved-answer retrieval and synthesis"
+    },
+    {
+      "offerId": "drafting_delivery_assistant",
+      "defaultDeployment": "self_serve",
+      "supportsManagedSecure": false,
+      "primaryValue": "faster structured document production"
+    },
+    {
+      "offerId": "meeting_admin_followthrough_assistant",
+      "defaultDeployment": "self_serve",
+      "supportsManagedSecure": false,
+      "primaryValue": "clean action and follow-through outputs"
+    }
+  ]
+}

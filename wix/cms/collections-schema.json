@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "collections": [
+    {
+      "name": "Offers",
+      "fields": ["offerId", "offerLabel", "summary", "deploymentMode", "ctaRoute", "publicStatus"]
+    },
+    {
+      "name": "FAQ",
+      "fields": ["question", "answer", "category", "publicStatus"]
+    },
+    {
+      "name": "ProofBlocks",
+      "fields": ["blockId", "title", "body", "route", "publicStatus"]
+    }
+  ]
+}

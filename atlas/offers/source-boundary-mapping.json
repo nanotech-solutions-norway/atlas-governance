@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "mapping": [
+    {"offerId": "internal_knowledge_assistant", "allowedSourceBoundaries": ["website_only", "approved_docs_only", "website_and_docs", "managed_secure_sources"]},
+    {"offerId": "drafting_delivery_assistant", "allowedSourceBoundaries": ["website_only", "approved_docs_only", "website_and_docs"]},
+    {"offerId": "meeting_admin_followthrough_assistant", "allowedSourceBoundaries": ["website_only", "approved_docs_only", "website_and_docs"]}
+  ]
+}

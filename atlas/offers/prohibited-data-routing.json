@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "routing": [
+    {"dataClass": "special_category_personal_data", "route": "reject_or_manual_review"},
+    {"dataClass": "health_legal_financial_high_risk", "route": "reject_or_manual_review"},
+    {"dataClass": "secret_credentials", "route": "reject"},
+    {"dataClass": "confidential_unapproved_internal_data", "route": "managed_secure_or_reject"}
+  ]
+}

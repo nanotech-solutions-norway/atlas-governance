@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "deploymentModes": [
+    {"id": "self_serve", "label": "Self-Serve"},
+    {"id": "assisted_setup", "label": "Assisted Setup"},
+    {"id": "managed_secure", "label": "Managed Secure Mode"}
+  ]
+}

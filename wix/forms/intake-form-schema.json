@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "formId": "atlas-intake-v1",
+  "fields": [
+    {"id": "offerId", "type": "select", "required": true},
+    {"id": "roleId", "type": "select", "required": true},
+    {"id": "workflowId", "type": "select", "required": true},
+    {"id": "deploymentMode", "type": "select", "required": true},
+    {"id": "languageMode", "type": "select", "required": true},
+    {"id": "sourceBoundary", "type": "select", "required": false},
+    {"id": "prohibitedDataClass", "type": "select", "required": false},
+    {"id": "companyName", "type": "text", "required": false},
+    {"id": "customerEmail", "type": "email", "required": true},
+    {"id": "notes", "type": "textarea", "required": false}
+  ]
+}

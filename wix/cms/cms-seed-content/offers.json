@@ -1,0 +1,29 @@
+{
+  "version": "0.1.0",
+  "records": [
+    {
+      "offerId": "internal_knowledge_assistant",
+      "offerLabel": "Atlas Knowledge",
+      "summary": "Internal knowledge and research assistant for approved sources.",
+      "deploymentMode": "assisted_setup",
+      "ctaRoute": "/atlas-knowledge",
+      "publicStatus": "launch_candidate"
+    },
+    {
+      "offerId": "drafting_delivery_assistant",
+      "offerLabel": "Atlas Drafting",
+      "summary": "Structured drafting assistant for proposals, emails, reports, and operational documents.",
+      "deploymentMode": "self_serve",
+      "ctaRoute": "/solutions",
+      "publicStatus": "launch_candidate"
+    },
+    {
+      "offerId": "meeting_admin_followthrough_assistant",
+      "offerLabel": "Atlas Meeting Flow",
+      "summary": "Meeting, planning, and follow-through assistant for structured actions and summaries.",
+      "deploymentMode": "self_serve",
+      "ctaRoute": "/solutions",
+      "publicStatus": "launch_candidate"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "languageModes": [
+    {"id": "norwegian_first", "label": "Norwegian-first"},
+    {"id": "bilingual_no_en", "label": "Norwegian/English bilingual"},
+    {"id": "english_first", "label": "English-first"}
+  ]
+}

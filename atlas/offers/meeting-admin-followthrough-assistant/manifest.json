@@ -1,0 +1,16 @@
+{
+  "version": "0.1.0",
+  "offerId": "meeting_admin_followthrough_assistant",
+  "publicName": "Atlas Meeting Flow",
+  "category": "execution_hygiene",
+  "summary": "Meeting, planning, and follow-through assistant for structured actions and summaries.",
+  "intendedJobs": [
+    "meeting summary generation",
+    "action extraction",
+    "follow-up drafting"
+  ],
+  "allowedDeploymentModes": ["self_serve", "assisted_setup"],
+  "allowedSourceBoundaries": ["website_only", "approved_docs_only", "website_and_docs"],
+  "requiresReviewGuard": true,
+  "publicStatus": "launch_candidate"
+}
